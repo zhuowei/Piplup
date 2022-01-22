@@ -1,0 +1,6 @@
+[submodule "third_party/json.lua"]
+	path = third_party/json.lua
+	url = https://github.com/rxi/json.lua
+[submodule "third_party/lua"]
+	path = third_party/lua
+	url = https://github.com/lua/lua
