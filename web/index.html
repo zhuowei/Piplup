@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Piplup: Playdate Pulp decompiler</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+</style>
+<script src="piplup.js"></script>
+<script src="lua.js"></script>
+</head>
+<body>
+<div>Piplup: decompile Playdate Pulp .pdx files back to .json project files</div>
+<form id="mainform">
+<div>Upload data.pdz from the .pdx file:</div>
+<div><input id="mainfile" type="file" value="Browse"></div>
+<div><input type="submit" value="Convert"></input><a href="#" style="display: none" id="downloadlink">Download out.json</a></div>
+</form>
+<div><a href="https://github.com/zhuowei/Piplup">Source</a></div>
+</body>
+</html>
